@@ -6,21 +6,18 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     tools:context=".MainActivity">
-
+<!--Creates a TextView to appear after the button is pushed-->
     <TextView
-        <!--The text to be displayed after the button is pressed-->
         android:id="@+id/after_push"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        <!--Moving and changing the colors + size of the text-->
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:textColor=" #0000ff "
         android:background=" #ffffff "
         android:textSize="32sp"/>
-
+<!--The button-->
     <Button
-        <!--The button.-->
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
